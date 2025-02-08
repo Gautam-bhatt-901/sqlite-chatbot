@@ -1,15 +1,15 @@
 from flask import Flask, request, jsonify, render_template
 import sqlite3
 import nltk
+# Download necessary NLTK resources
+nltk.download("punkt")
+nltk.download("stopwords")
+nltk.download("wordnet")
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 import re
 
-# Download necessary NLTK resources
-nltk.download("punkt")
-nltk.download("stopwords")
-nltk.download("wordnet")
 
 app = Flask(__name__)
 
