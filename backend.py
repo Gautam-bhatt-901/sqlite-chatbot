@@ -10,7 +10,6 @@ from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 import re
 
-
 app = Flask(__name__)
 
 # Function to query the SQLite database
