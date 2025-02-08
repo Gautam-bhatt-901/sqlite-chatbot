@@ -1,6 +1,7 @@
 # SQLite Chat Assistant
 
 A Python-based chat assistant that interacts with an SQLite database to answer natural language queries about employees and departments.
+Visit [Chat Bot](https://sqlite-chatbot-tndq.onrender.com/) from here.
 
 ## Overview
 
